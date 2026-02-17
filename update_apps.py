@@ -45,7 +45,7 @@ with open(output_file, mode, newline="", encoding="utf-8") as csvfile:
             print(f"Skipping {pkg} - already exists in CSV.")
             continue
 
-        url = f"https://play.google.com/store/apps/details?id={pkg}&hl=en&gl=US"
+        url = f"https://play.google.com/store/apps/details?id={pkg}&hl=iw&gl=IL"
         icon_downloaded = "No"
         
         try:
